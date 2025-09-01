@@ -1,0 +1,53 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Configuration files
+.env
+.env.local
+.env.production
+.env.testing
+
+# Log files
+*.log
+logs/
+
+# Runtime data
+storage/
+cache/
+sessions/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local development
+dump.rdb
+
+# Composer
+composer.lock
+/composer.phar
+
+# XAMPP
+htdocs/
+/xampp/
+
+# Testing
+/coverage/
+.phpunit.result.cache
+
+# Built files
+/dist/
+/build/
